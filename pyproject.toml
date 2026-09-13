@@ -1,0 +1,24 @@
+[project]
+name = "ai-business-analyst"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "docx>=0.2.4",
+    "dotenv>=0.9.9",
+    "fastapi>=0.141.1",
+    "google-api-python-client>=2.200.0",
+    "google-auth>=2.56.3",
+    "google-auth-oauthlib>=1.4.1",
+    "google-genai>=2.19.0",
+    "pandas>=3.0.5",
+    "psycopg2>=2.9.12",
+    "pymupdf>=1.28.2",
+    "qdrant-client>=1.19.0",
+    "sentence-transformers",
+    "sqlmodel>=0.0.39",
+    "torch>=2.13.0",
+    "transformers>=5.15.1",
+    "uvicorn>=0.52.1",
+]
